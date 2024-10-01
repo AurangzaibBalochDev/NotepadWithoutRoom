@@ -66,4 +66,17 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    //Glide
+    implementation("com.github.bumptech.glide:compose:1.0.0-beta01")
+    //Navigation
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+    //Extended_Images
+    implementation("androidx.compose.material:material-icons-extended:1.6.8")
+    //Koin
+    implementation("io.insert-koin:koin-androidx-compose:3.5.6")
+
+    // Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
 }
